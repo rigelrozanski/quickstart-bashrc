@@ -7,9 +7,9 @@ homePath="$HOME/.bashrc"
 
 if [[ $1 == push ]]; then
   cp $repoPath $homePath
-  echo "Swapped repo bashrc with home directory .bashrc"
+  echo "Added repo bashrc to the home directory .bashrc"
 else
   cp $homePath $repoPath
-  echo "Swapped home directory .bashrc repo bashrc with"
+  echo "Added home directory .bashrc to the repo bashrc"
 fi
 
