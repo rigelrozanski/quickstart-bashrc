@@ -119,6 +119,9 @@ fi
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
+#tab to rotate through options
+bind '"\t":menu-complete'
+
 #custom alias
 alias killglide='rm -rf ~/.glide ; rm -rf vendor ; rm glide.lock'
 alias gitcommits='git log --oneline -n 10'
