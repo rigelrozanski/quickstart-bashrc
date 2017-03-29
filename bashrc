@@ -123,6 +123,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 bind '"\t":menu-complete'
 
 #custom alias
+alias killwifi='sudo service network-manager restart'
 alias killglide='rm -rf ~/.glide ; rm -rf vendor ; rm glide.lock'
 alias gitcommits='git log --oneline -n 10'
 alias githash='git rev-parse --short HEAD ; git rev-parse HEAD'
