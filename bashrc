@@ -125,6 +125,7 @@ bind '"\t":menu-complete'
 #custom alias
 alias killwifi='sudo service network-manager restart'
 alias killglide='rm -rf ~/.glide ; rm -rf vendor ; rm glide.lock'
+alias killswp='find . -name "*.swp" -type f -delete'
 alias gitcommits='git log --oneline -n 10'
 alias githash='git rev-parse --short HEAD ; git rev-parse HEAD'
 alias gitrevert='git reset HEAD --hard ; git clean -fd ; git checkout -- .'
